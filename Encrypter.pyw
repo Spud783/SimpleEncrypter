@@ -31,9 +31,6 @@ with window("Encrypter", width=1000, height=860):
     add_separator()
     # options
     add_spacing(count=12)
-    add_radio_button(name="encode_decode", items=[
-                     "Encode", "Decode"], default_value=0, horizontal=True)
-    add_spacing(count=12)
     add_text("Add a key inbetween 1 & 255")
     add_input_int(name="key", min_value=1, max_value=255)
     add_spacing(count=12)
